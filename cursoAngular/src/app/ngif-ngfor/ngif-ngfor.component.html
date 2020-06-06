@@ -1,0 +1,10 @@
+<input type="text" (input)="numero = $event.target.value"/>
+<h1 *ngIf="numero > 5"> Será Exibido </h1>
+
+<p>************************************************</p>
+
+<div *ngFor="let n of array">
+    <h1 *ngIf=" n%2 === n">{{ n }}</h1>
+</div>
+
+

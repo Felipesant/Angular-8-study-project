@@ -1,0 +1,48 @@
+SRC: Pasta principal
+	main.ts = Define o Ambiente "DEV" ou "PROD"
+	polyfills.ts = Onde traduz o TS para JS para o navegador, sendo ES6 etc...
+	styles.css = para a aplicação toda (GERAL).
+	test.ts = Parâmetros de teste. Pega os arquivos de teste ".spec \ .ts"
+	
+---------------------------------------------------------------------------------
+
+APP: 2ª Pasta pricipal, onde fica todos componentes da aplicação.
+
+**Para Cada Componente o Angular cria esses 3 arquivos:
+	app-routing.module.ts
+	app.component.html
+	app.component.spec.ts	
+	
+---------------------------------------------------------------------------------
+
+Environments: Gera o bild da aplicação, define se esta em produção..
+
+
+---------------------------------------------------------------------------------
+
+angular.json: Todas as config do Angular..
+
+karma.conf.js: Utilizado para teste / testes unitários..
+
+tsconfig.json
+
+======================================================================
+
+Angular Schematics - extenção para criar componentes mais rapido e facil
+
+=======================================================================
+
+Rotas do Angular - Arquivo "app-routing"
+Fica dentro de um array de rotas:
+rotas: Routes = [ {path: 'first-component', component: Component}, ];
+
+=======================================================================
+
+Trabalhando com seletores
+
+Input: (ação)="método(passar um evento)"
+	(input): Vai ler o input.
+	()
+
+========================================================================
+
